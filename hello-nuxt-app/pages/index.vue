@@ -1,15 +1,13 @@
 <template>
 <div>
+  <div align='center'>
+    <h1>สวัสดียินดีต้อนรับ</h1>
+  </div>
+  
+
   <v-row justify="center" align="center">
-   <h1>สวัสดียินดีต้อนรับ</h1>
    
-    <v-btn
-            color="primary"
-            nuxt
-            to="/user"
-          >
-            User
-          </v-btn>
+          
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
         <logo />
@@ -27,7 +25,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              documentation
+              Vuetify
             </a>.
           </p>
           <p>
